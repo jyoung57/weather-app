@@ -18,10 +18,6 @@ function handleGetWeather(event) {
       console.log(data);
 
       const todaysWeather = data.data[0];
-      console.log(todaysWeather.sunrise);
-      console.log(todaysWeather.sunset);
-      console.log(todaysWeather.weather.description);
-      console.log(todaysWeather.weather.icon);
 
       $('#weather')
         .append(`<p>Sunrise: ${todaysWeather.sunrise}</p>`)
