@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(7, 7, 119);
+  color: rgb(19, 189, 10);
+  min-height: 90vh;
+}
+
+#weather {
+  min-height: 200px;
+  background-color: rgb(216, 194, 194);
+}
+
+/*# sourceMappingURL=style.css.map */

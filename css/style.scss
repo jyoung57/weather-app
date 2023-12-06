@@ -1,0 +1,14 @@
+$darkblue: rgb(7, 7, 119);
+$light-text: rgb(19, 189, 10);
+
+body {
+  background-color: $darkblue;
+  color: $light-text;
+  min-height: 90vh;
+}
+
+#weather {
+  min-height: 200px;
+  background-color: rgb(216, 194, 194);
+
+}
